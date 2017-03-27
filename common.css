@@ -1,0 +1,144 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+.w{
+    width: 960px;
+    margin: 0 auto;/*水平居中*/
+}
+body{
+    background: url(qietu/bg.png);
+}
+.logo img {
+    margin-top: 40px;
+}
+.nav .top-bottom,
+.nav .bottom-border{
+    height: 8px;
+    background-color: #822619;
+}
+.nav .nav-list-wrap{
+    margin: 3px 0;
+    background: #186568 url("qietu/diamond.png") repeat-x center;
+    height: 46px;
+}
+.nav .nav-list-wrap li{
+    float: left;
+    margin: 0 22px;/*让单词之间隔出一段距离，每个单词都相当于一个盒子，两个盒子之间用margin来设置距离*/
+    line-height: 46px;/*设置到中间，利用行高*/
+    font-size: 20px;
+}
+.nav .nav-list-wrap .curt a{
+    color: #ebe9d7;
+}
+.nav .nav-list-wrap li a{
+    color: #8ebcbf;
+    text-decoration: none;
+}
+.nav .nav-list-wrap li a:hover{
+    color: #ebe9d7;
+}
+.nav .nav-list-wrap .waiter{
+    position: absolute;
+    top:-148px;
+    right: 0;
+}
+.nav .nav-list-w{
+    position: relative;/**/
+}
+
+.footer .topbotter{
+    height: 8px;
+    margin-top: 30px;
+    background-color: #822619;
+}
+.footer .footer-content{
+    margin-top: 3px;
+    background-color:#186568 ;
+}
+.footer .footer-content .left{
+
+    width: 190px;
+    float: left;
+    margin-right: 150px;
+}
+.footer .dh{
+    font-size: 16px;
+    color: #e1e2d1;
+    margin-top: 18px;
+}
+.footer .number{
+    font-size: 16px;
+    color: #e1e2d1;
+    margin-top: 8px;
+}
+.footer .footer-content .left li{
+    float: left;
+    margin-right: 6px;
+    margin-top: 11px;
+}
+.footer .footer-content .middle{
+    float: left;
+    width: 300px;
+    margin-right: 75px;
+}
+.footer .footer-logo{
+    margin-top: 15px;
+    text-align: center;
+}
+.footer .hanc{
+    font-size: 12px;
+    color:#e1e2d1;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+.footer .hanc a{
+    color:#cdd3c4 ;
+    margin: 0 10px;
+}
+.footer .hanc a:hover{
+    color:#ebe9d7 ;
+}
+.footer .wangzhi{
+    font-size: 12px;
+    color:#e1e2d1;
+    margin-top: 6px;
+}
+.footer .footer-content .right{
+    float: left;
+    width: 240px;
+}
+.footer .get{
+    color:#e1e2d1 ;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.footer .email{
+    margin-top: 7px;
+    color: black;
+    background: url("qietu/email.png");
+    text-align: center;
+    width: 190px;
+    height: 29px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+.footer .now{
+    margin-top: 6px;
+}
+.footer .now .now-btn{
+    background: url("qietu/subscribe.png");
+    width: 214px;
+    height: 36px;
+    display: block;
+}
+.footer .now .now-btn:hover{
+    background: url("qietu/hover.png");
+
+}
